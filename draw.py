@@ -148,7 +148,6 @@ def drawRoot(num):
         else:
             color="yellow"
 
-    if num.imag==0:
     plot.scatter(num.real, num.imag, s=50, marker='.', color=color)
     pass
 
